@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+.container-wrapper {
+    background-color: rgb(113, 195, 168);
+    width: 100vw;
+    height: 100vh;
+    padding: 80px;
+}
+
+.image img {
+    width: 100%;
+    height: 80vh;
+}
+
+.image {
+    margin: auto;
+    border-radius: 10px;
+    float: left;
+    width: 50%;
+}
+
+.heading {
+    color: rgb(113, 195, 168);
+}
+
+.form-wrapper {
+    width: 50%;
+    height: 80vh;
+    float: right;
+    background-color: whitesmoke;
+    padding: 40px;
+    vertical-align: middle;
+    padding-bottom: 100px;
+}
+
+.texts {
+    text-align: center;
+}
+
+/* .style-wrapper label{
+    padding-right: 60px;
+} */
+/* .form-wrapper form{
+    width: 100%;
+    margin: auto;
+    margin-left: auto;
+    padding-bottom: 100px;
+} */
+.style-wrapper {
+    margin-left: 10vw;
+    padding-bottom: 100px;
+    width: 100%;
+    display: inline-block;
+
+}
+
+/* .style-wrapper div input{
+    border: none;
+    background-color: rgb(233, 227, 222);
+    padding: 5px;
+} */
+form p {
+    letter-spacing: 1.5px;
+    padding-bottom: 20px;
+}
+
+.favorite-styled {
+    background-color: rgb(32, 32, 71) !important;
+    color: white;
+    margin-left: 10vw;
+    padding: 8px 22px !important;
+}
+
+.favorite-styled-2 {
+    background-color: rgb(113, 195, 168) !important;
+    color: white;
+    padding: 8px 22px !important;
+}
